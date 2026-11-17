@@ -9,7 +9,7 @@ tiempo de preparación (minutos) y si es vegetariana.
 |---|---|
 | Presentación | ASP.NET Web Forms (C#) |
 | Arquitectura | N-Layer: Presentación → Lógica de negocio → Acceso a datos → SQL Server, con entidades compartidas |
-| Framework | .NET Framework 4.8 en todos los proyectos |
+| Framework | .NET Framework 2.0 en todos los proyectos (ASP.NET 2.0) |
 | Base de datos | Microsoft SQL Server 2017 o superior |
 
 ## Estructura
