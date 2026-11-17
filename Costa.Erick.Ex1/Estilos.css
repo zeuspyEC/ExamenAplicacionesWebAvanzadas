@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 30px; color: #222; }
+h1 { color: #a0441f; }
+table { border-collapse: collapse; }
+th { background: #a0441f; color: #fff; padding: 8px; text-align: left; }
+td { border-bottom: 1px solid #ddd; padding: 8px; vertical-align: top; }
+.formulario td { border: none; }
+input[type=text], textarea { width: 320px; padding: 5px; }
+.boton { background: #a0441f; color: #fff; border: none; padding: 7px 14px; text-decoration: none; cursor: pointer; }
+.mensaje { color: green; font-weight: bold; display: block; margin-bottom: 10px; }
+.error { color: red; }
