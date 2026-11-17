@@ -1,0 +1,52 @@
+# ============================================================
+#  Control de versiones del examen: solo se sube el código
+#  fuente, el script de base de datos y la documentación.
+# ============================================================
+
+# --- Compilación de Visual Studio / .NET Framework ---
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.pdb
+*.cache
+*.dll
+*.exe
+
+# --- Archivos personales del IDE (no forman parte de la solución) ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# --- Paquetes NuGet (se restauran solos, no se versionan) ---
+packages/
+*.nupkg
+
+# --- IIS Express y publicación ---
+.vs/config/applicationhost.config
+PublishProfiles/
+*.pubxml.user
+
+# --- Evidencias del informe (capturas de pantalla) ---
+# Se guardan en local para armar el PDF, pero no se suben al repositorio.
+evidencias/
+
+# --- Entregables generados (se suben aparte a la plataforma) ---
+entregables/
+*.zip
+*.pdf
+docs/informe/salida/
+docs/informe/node_modules/
+
+# --- Basura del sistema operativo y temporales ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
+~$*
